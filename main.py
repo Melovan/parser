@@ -40,7 +40,7 @@ def append_file(items, path):
 
 
 def parse():
-    filename = 'ps4games.csv'
+    filename = 'watches.csv'
     with open(filename, 'w', encoding='utf8', newline='') as file:
         writer = csv.writer(file)
         writer.writerow(['Названия товара', 'Цена товара (в рублях)'])
